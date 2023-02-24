@@ -1,0 +1,3 @@
+if game.PlaceId == 10824616460 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Onliox/script/main/sword-slasher', true))()
+end
