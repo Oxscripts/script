@@ -5,3 +5,7 @@ end
 if game.PlaceId == 10376180036 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Onliox/script/main/ant-simulator', true))()
 end
+
+if game.PlaceId == 11118216071 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Onliox/script/main/pet-trading-card-simulator', true))()
+end
