@@ -11,5 +11,5 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main
 end
 
 if game.PlaceId == 9358717212 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/raise-a-pochita', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/rXzJg1Fe', true))()
 end
