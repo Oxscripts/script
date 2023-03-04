@@ -1,15 +1,15 @@
 if game.PlaceId == 10824616460 then
-loadstring(game:HttpGet('https://pastebin.com/raw/Z8MhZ7U2', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/sword-slasher', true))()
 end
 
 if game.PlaceId == 10376180036 then
-loadstring(game:HttpGet('https://pastebin.com/raw/pXbAZbSk', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/ant-simulator', true))()
 end
 
 if game.PlaceId == 11118216071 then
-loadstring(game:HttpGet('https://pastebin.com/raw/xWAkusQq', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/pet-trading-card-simulator', true))()
 end
 
 if game.PlaceId == 9358717212 then
-loadstring(game:HttpGet('https://pastebin.com/raw/rXzJg1Fe', true))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/raise-a-pochita', true))()
 end
