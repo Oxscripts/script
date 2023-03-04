@@ -1,5 +1,5 @@
 if game.PlaceId == 10824616460 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/sword-slasher', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/Z8MhZ7U2', true))()
 end
 
 if game.PlaceId == 10376180036 then
