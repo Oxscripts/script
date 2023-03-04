@@ -3,11 +3,11 @@ loadstring(game:HttpGet('https://pastebin.com/raw/Z8MhZ7U2', true))()
 end
 
 if game.PlaceId == 10376180036 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/ant-simulator', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/pXbAZbSk', true))()
 end
 
 if game.PlaceId == 11118216071 then
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/pet-trading-card-simulator', true))()
+loadstring(game:HttpGet('https://pastebin.com/raw/xWAkusQq', true))()
 end
 
 if game.PlaceId == 9358717212 then
