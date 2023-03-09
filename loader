@@ -17,3 +17,39 @@ end
 if game.PlaceId == 11326830776 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/tapping-league-x', true))()
 end
+
+local ScreenGui = Instance.new("ScreenGui")
+local gui = Instance.new("Frame")
+local ImageButton = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+gui.Name = "gui"
+gui.Parent = ScreenGui
+gui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gui.BackgroundTransparency = 1.000
+gui.BorderSizePixel = 0
+gui.Position = UDim2.new(0.18561995, 0, 0.15925926, 0)
+gui.Size = UDim2.new(0.0440205559, 0, 0.0740740746, 0)
+gui.Draggable = true
+gui.Selectable = true
+gui.Active = true
+
+ImageButton.Parent = gui
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BackgroundTransparency = 1.000
+ImageButton.BorderSizePixel = 0
+ImageButton.Size = UDim2.new(1, 0, 1, 0)
+ImageButton.Image = "http://www.roblox.com/asset/?id=12729586515"
+ImageButton.Draggable = true
+ImageButton.Selectable = true
+ImageButton.Active = true
+ImageButton.MouseButton1Click:Connect(function()
+	Library:ToggleUI()
+end)
+
+UICorner.Parent = ImageButton
