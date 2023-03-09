@@ -10,7 +10,7 @@ if game.PlaceId == 11118216071 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/pet-trading-card-simulator', true))()
 end
 
-if game.PlaceId == 1 then
+if game.PlaceId == 12697333256 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/raise-a-pochita', true))()
 end
 
