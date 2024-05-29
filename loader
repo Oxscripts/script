@@ -25,3 +25,11 @@ end
 if game.PlaceId == 12851888521 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/punch-wall-simulator', true))()
 end
+
+if game.PlaceId == 16793467727 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/rng-leveling', true))()
+end
+
+if game.PlaceId == 14206957248 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/og-bgs', true))()
+end
