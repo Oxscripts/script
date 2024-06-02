@@ -34,13 +34,13 @@ Collector:NewToggle("Auto Collect Things (open float from I.F.)", "ToggleInfo", 
     if state then
         _G.collect = true;
 while _G.collect == true do
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxscripts/test/main/test-127589172"))()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Pickups.Model.Part.Position)
     wait()
 end
     else
         _G.collect = false;
 while _G.collect == true do
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Oxscripts/test/main/test-127589172"))()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.Pickups.Model.Part.Position)
     wait()
 end
     end
