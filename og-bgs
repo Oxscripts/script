@@ -62,7 +62,7 @@ while _G.deleteall == true do
 local ohString1 = "PetUnlockedDelete"
 
 game:GetService("ReplicatedStorage")['']:FireServer(ohString1)
-    wait()
+    wait(5)
 end
     else
         _G.deleteall = false;
