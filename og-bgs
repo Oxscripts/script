@@ -83,7 +83,7 @@ candyeggs:NewToggle("Jelly Egg", "ToggleInfo", function(state)
         
         game:GetService("ReplicatedStorage")['']:FireServer(ohString1, ohString2, ohString3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-467, 45, -2867)
-            wait(0.15)
+            wait()
         end
     else
         _G.jellyegg = false;
@@ -102,7 +102,7 @@ local ohString3 = "Multi"
 
 game:GetService("ReplicatedStorage")['']:FireServer(ohString1, ohString2, ohString3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-543, 45, -2838)
-            wait(0.15)
+            wait()
         end
     else
         _G.dominusegg = false;
@@ -123,7 +123,7 @@ toyeggs:NewToggle("Rubber Egg", "ToggleInfo", function(state)
         
         game:GetService("ReplicatedStorage")['']:FireServer(ohString1, ohString2, ohString3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-178, 38631, -5326)
-            wait(0.15)
+            wait()
         end
     else
         _G.rubbergg = false;
@@ -142,7 +142,7 @@ toyeggs:NewToggle("Bee Egg", "ToggleInfo", function(state)
         
         game:GetService("ReplicatedStorage")['']:FireServer(ohString1, ohString2, ohString3)
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-190, 38631, -5328)
-            wait(0.15)
+            wait()
         end
     else
         _G.beegg = false;
