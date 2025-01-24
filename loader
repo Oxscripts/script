@@ -33,3 +33,7 @@ end
 if game.PlaceId == 14206957248 then
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/main/og-bgs', true))()
 end
+
+if game.PlaceId == 136557852871977 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Oxscripts/script/refs/heads/main/OGer-bgs', true))()
+end
