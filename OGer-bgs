@@ -80,7 +80,7 @@ end)
 
 local Christmas = eggs:NewSection("Christmas Eggs")
 
-Christmas:NewToggle("Nightmare Egg", "ToggleInfo", function(state)
+Christmas:NewToggle("Frost Egg", "ToggleInfo", function(state)
     if state then
         _G.FrostEgg = true;
         while _G.FrostEgg == true do
