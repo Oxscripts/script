@@ -4,7 +4,7 @@ local Window = Library.CreateLib("🔥 OGer bable gam sim 🔥", "Sentinel")
 local Creditss = Window:NewTab("Credits")
 local Credit = Creditss:NewSection("Credits")
 
-Credit:NewLabel("MADE BY ONLIOX LA GARDAŞŞ")
+Credit:NewLabel("Made by Onliox")
 
 local Main = Window:NewTab("Main")
 local Bubbles = Main:NewSection("Bubble")
@@ -78,9 +78,9 @@ end
     end
 end)
 
-local Eventt = eggs:NewSection("Event Eggs")
+local Christmas = eggs:NewSection("Event Eggs")
 
-Eventt:NewToggle("600m Egg", "ToggleInfo", function(state)
+Christmas:NewToggle("600m Egg", "ToggleInfo", function(state)
     if state then
         _G.600megg = true;
         while _G.600megg == true do
