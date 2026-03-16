@@ -85,11 +85,12 @@ Christmas:NewToggle("600m Egg", "ToggleInfo", function(state)
         _G.600megg = true;
         while _G.600megg == true do
             local args = {
-                [1] = "600M Egg",
+                [1] = "600m Egg",
                 [2] = "Multi"
             }
             
-            game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("PurchaseEgg"):FireServer(unpack(args))            
+            game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("PurchaseEgg"):FireServer(unpack(args))
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.FloatingIslands["Overworld"][MainWorldOption].TeleportPoint.Position)
             wait()
         end
     else
@@ -211,7 +212,7 @@ gamee:NewButton("Rejoin", "ButtonInfo", function()
 end)
 
 gamee:NewButton("Server Hop", "ButtonInfo", function()
-    local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/14206957248/servers/Public?sortOrder=Asc&limit=100"))
+    local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/123236987720897/servers/Public?sortOrder=Asc&limit=100"))
     for i,v in pairs(Servers.data) do
       if v.playing ~= v.maxPlayers then
           game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
