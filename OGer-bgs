@@ -4,7 +4,7 @@ local Window = Library.CreateLib("🔥 OGer bable gam sim 🔥", "Sentinel")
 local Creditss = Window:NewTab("Credits")
 local Credit = Creditss:NewSection("Credits")
 
-Credit:NewLabel("Made by Onliox")
+Credit:NewLabel("MADE BY ONLIOX LA GARDAŞŞ")
 
 local Main = Window:NewTab("Main")
 local Bubbles = Main:NewSection("Bubble")
@@ -78,23 +78,23 @@ end
     end
 end)
 
-local Christmas = eggs:NewSection("Event Eggs")
+local Christmas = eggs:NewSection("Christmas Eggs")
 
-Christmas:NewToggle("600m Egg", "ToggleInfo", function(state)
+Christmas:NewToggle("Frost Egg", "ToggleInfo", function(state)
     if state then
-        _G.600megg = true;
-        while _G.600megg == true do
+        _G.FrostEgg = true;
+        while _G.FrostEgg == true do
             local args = {
-                [1] = "600m Egg",
+                [1] = "Frost Egg",
                 [2] = "Multi"
             }
             
-            game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("PurchaseEgg"):FireServer(unpack(args))
-            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(workspace.FloatingIslands["Overworld"][MainWorldOption].TeleportPoint.Position)
+            game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("PurchaseEgg"):FireServer(unpack(args))            
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-770, 30109, -3209)
             wait()
         end
     else
-        _G.600megg = false;
+        _G.FrostEgg = false;
     end
 end)
 
@@ -212,7 +212,7 @@ gamee:NewButton("Rejoin", "ButtonInfo", function()
 end)
 
 gamee:NewButton("Server Hop", "ButtonInfo", function()
-    local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/123236987720897/servers/Public?sortOrder=Asc&limit=100"))
+    local Servers = game.HttpService:JSONDecode(game:HttpGet("https://games.roblox.com/v1/games/14206957248/servers/Public?sortOrder=Asc&limit=100"))
     for i,v in pairs(Servers.data) do
       if v.playing ~= v.maxPlayers then
           game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, v.id)
