@@ -80,17 +80,16 @@ end)
 
 local Christmas = eggs:NewSection("Christmas Eggs")
 
-Christmas:NewToggle("Frost Egg", "ToggleInfo", function(state)
+Christmas:NewToggle("600m Egg (go near egg first)", "ToggleInfo", function(state)
     if state then
         _G.FrostEgg = true;
         while _G.FrostEgg == true do
             local args = {
-                [1] = "Frost Egg",
+                [1] = "600mw Egg",
                 [2] = "Multi"
             }
             
             game:GetService("ReplicatedStorage"):WaitForChild("Assets"):WaitForChild("Remotes"):WaitForChild("PurchaseEgg"):FireServer(unpack(args))            
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-770, 30109, -3209)
             wait()
         end
     else
