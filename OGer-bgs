@@ -111,26 +111,3 @@ end
         _G.leprechaunegg = false;
     end
 end)
-
-EventEggs:NewToggle("Egg O' Gold", "ToggleInfo", function(state)
-    if state then
-        _G.eggogold = true;
-while _G.eggogold == true do
-for _,v in pairs(game:GetDescendants()) do
-    if v.Name=="PurchaseEgg" then
-        if v:IsA("RemoteEvent") then v:FireServer("Egg O' Gold","Multi") else v:InvokeServer("Egg O' Gold","Multi") end
-        break
-    end
-end
-    wait(0.1)
-end
-    else
-        _G.eggogold = false;
-    end
-end)
-
-local Settings = Window:NewTab("Settings")
-local Hotkeys = Settings:NewSection("Hotkeys")
-Hotkeys:NewKeybind("Toggle UI", "KeybindInfo", Enum.KeyCode.F, function()
-    Library:ToggleUI()
-end)
