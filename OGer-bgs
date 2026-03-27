@@ -98,7 +98,7 @@ EventEggs:NewToggle("Leprechaun Egg", "ToggleInfo", function(state)
     if state then
         _G.leprechaunegg = true;
 while _G.leprechaunegg == true do
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-636, 42, 596)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-650, 42, 594)
 for _,v in pairs(game:GetDescendants()) do
     if v.Name=="PurchaseEgg" then
         if v:IsA("RemoteEvent") then v:FireServer("Leprechaun Egg","Multi") else v:InvokeServer("Leprechaun Egg","Multi") end
