@@ -4,12 +4,3 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 print("Anti-Afk is Working!")
 end)
-
-local notifLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Sw1ndlerScripts/RobloxScripts/main/Notification%20Library/main.lua"))()
-
-notifLib:CreateDefaultNotif({
- TweenSpeed = 1,
- Title = "Notification",
- Text = "Anti-Afk is Working!",
- Duration = 5
-})
